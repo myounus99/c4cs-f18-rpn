@@ -18,6 +18,9 @@ class TestBasics(unittest.TestCase):
     def test_factorial(self):
         result = rpn.calculate("4 !")
         self.assertEqual(24, result)
+    def test_exponent(self):
+        result = rpn.calculate(4 2 ^)
+        self.assertEqual(16, result)
 
 if __name__ == '__main__':
 	unittest.main() 
