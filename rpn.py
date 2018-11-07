@@ -9,6 +9,7 @@ operators = {
     '*': operator.mul,
     '/': operator.truediv,
     '!': math.factorial,
+    '^': operator.pow,
 }
 
 def percent(arg1, arg2, operation):
