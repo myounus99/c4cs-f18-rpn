@@ -19,7 +19,7 @@ class TestBasics(unittest.TestCase):
         result = rpn.calculate("4 !")
         self.assertEqual(24, result)
     def test_exponent(self):
-        result = rpn.calculate(4 2 ^)
+        result = rpn.calculate("4 2 ^")
         self.assertEqual(16, result)
 
 if __name__ == '__main__':
